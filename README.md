@@ -70,5 +70,5 @@ Make sure you have Node.js installed on your system. You can download it from [n
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 ```
