@@ -1,4 +1,4 @@
-# p5.js Sketch Index PDF Generator
+# p5.js Sketch Index PDF Generator Nodejs & Python
 
 This repository contains a set of tools to generate a PDF index of your p5.js sketches. These tools capture screenshots of your sketches, create an HTML page with these screenshots, and convert it into a PDF for easy reference. Additionally, there's a Python script for updating and converting sketch URLs to the p5.js editor's "full" view URLs.
 
