@@ -11,7 +11,7 @@ Make sure you have Node.js installed on your system. You can download it from [n
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/p5js-sketch-index.git
+   git clone https://github.com/thericcardomantelli/p5js-sketch-index.git
    cd p5js-sketch-index
    ```
 
