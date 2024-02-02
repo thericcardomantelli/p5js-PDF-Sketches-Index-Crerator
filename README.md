@@ -1,7 +1,3 @@
-# p5js-PDF-Sketches-Index-Crerator
-Effortlessly organize your p5.js sketches. Capture screenshots, create an HTML index, and generate a sleek PDF for quick reference. Python script for URL updates included.
-Certo, ecco il testo formattato in Markdown per il tuo README:
-
 # p5.js Sketch Index PDF Generator
 
 This repository contains a set of tools to generate a PDF index of your p5.js sketches. These tools capture screenshots of your sketches, create an HTML page with these screenshots, and convert it into a PDF for easy reference. Additionally, there's a Python script for updating and converting sketch URLs to the p5.js editor's "full" view URLs.
