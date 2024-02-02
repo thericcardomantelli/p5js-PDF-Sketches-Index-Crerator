@@ -57,15 +57,15 @@ Make sure you have Node.js installed on your system. You can download it from [n
 
 ### Update Sketch URLs (Python)
 
-1. Edit the `xlinks.py` file and replace `yourusername` with your actual username.
+1. Go to your https://editor.p5js.org/yourusername/sketches inspect with chrome or favourite browser and copy the all the content of tbody html 
+2. Edit the `xlinks.py` file and replace `yourusername` with your actual username.
 
-2. Run the following command to update and convert sketch URLs:
+3. Run the following command to update and convert sketch URLs:
 
    ```bash
-   python xlinks.py
+   python xlinks.py >files.txt
    ```
-
-   Updated URLs will be printed in the console.
+   Updated URLs will be listed inside files.txt
 
 ## License
 
