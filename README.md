@@ -33,6 +33,18 @@ Make sure you have Node.js installed on your system. You can download it from [n
 
 ## Usage
 
+### Update Sketch URLs (Python)
+
+1. Go to your https://editor.p5js.org/yourusername/sketches inspect with chrome or favourite browser and copy the all the content of tbody html 
+2. Edit the `xlinks.py` file and replace `yourusername` with your actual username.
+
+3. Run the following command to update and convert sketch URLs:
+
+   ```bash
+   python xlinks.py >links.txt
+   ```
+   Updated URLs will be listed inside links.txt
+
 ### Capture Screenshots of Sketches
 
 1. Edit the `links.txt` file to include the URLs of your p5.js sketches, one URL per line.
@@ -55,17 +67,6 @@ Make sure you have Node.js installed on your system. You can download it from [n
 
    The generated PDF will be named `SketchesPreview.pdf`.
 
-### Update Sketch URLs (Python)
-
-1. Go to your https://editor.p5js.org/yourusername/sketches inspect with chrome or favourite browser and copy the all the content of tbody html 
-2. Edit the `xlinks.py` file and replace `yourusername` with your actual username.
-
-3. Run the following command to update and convert sketch URLs:
-
-   ```bash
-   python xlinks.py >files.txt
-   ```
-   Updated URLs will be listed inside files.txt
 
 ## License
 
