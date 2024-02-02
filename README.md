@@ -35,13 +35,13 @@ Make sure you have Node.js installed on your system. You can download it from [n
 
 ### Update Sketch URLs (Python)
 
-1. Go to your https://editor.p5js.org/yourusername/sketches inspect with chrome or favourite browser and copy the all the content of tbody html 
-2. Edit the `xlinks.py` file and replace `yourusername` with your actual username.
-
-3. Run the following command to update and convert sketch URLs:
+1. Go to your https://editor.p5js.org/yourusername/sketches inspect with chrome or favourite browser and copy the all the contents of tbody html tag.
+2. Edit the `extractLinks.py` file and paste the code inside the extractLinks.py line 5 > html_text = """...your p5js HTML sketch summary page """  
+3. Edit the `extractLinks.py` file and replace `yourusername` with your actual username.
+4. Run the following command to update and convert sketch URLs:
 
    ```bash
-   python xlinks.py >links.txt
+   python extractLinks.py >links.txt
    ```
    Updated URLs will be listed inside links.txt
 
